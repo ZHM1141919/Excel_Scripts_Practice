@@ -1,0 +1,33 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore Python virtual env
+.venv/
+venv/
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+outputs/
+
+# Ignore large Excel files by default (remove if you want to keep small sample.xlsx)
+*.xlsx
+*.xls
+
+# Keep Data folder and your scripts tracked
+# If you WANT to ignore csvs, uncomment the next line. Otherwise keep Data tracked.
+# Data/*.csv
+
+# Secrets
+.env
+*.pem
+id_rsa
